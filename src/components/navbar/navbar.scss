@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+  // background-color: teal;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+
+  h2 {
+    color: white;
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  img {
+    height: 24px;
+  }
+
+  .notification {
+    position: relative;
+    margin-left: 9px;
+    span {
+      text-align: center;
+      font-size: 14px;
+      background-color: red;
+      color: rgb(218, 218, 218);
+      width: 18px;
+      height: 18px;
+      border-radius: 100%;
+      position: absolute;
+      top: -9px;
+      right: -6px;
+    }
+  }
+}
+
+.user {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  img {
+    height: 29px;
+    width: 29px;
+    border-radius: 100%;
+  }
+  span {
+    color: white;
+  }
+}
