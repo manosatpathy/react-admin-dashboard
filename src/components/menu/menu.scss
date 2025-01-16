@@ -1,8 +1,8 @@
-@import "../../styles/variable.scss";
+@use "../../styles/variable.scss";
 
 .menu {
   .title {
-    color: $soft-color;
+    color: variable.$soft-color;
     font-weight: 200;
     font-size: 12px;
     text-transform: uppercase;
