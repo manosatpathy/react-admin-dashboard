@@ -1,9 +1,7 @@
-import React from 'react'
 import './products.scss'
 
-type Props = {}
 
-const Products = (props: Props) => {
+const Products = () => {
   return (
     <div className='products'>Products</div>
   )

@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import "./styles/gloabl.scss";
 
-const App = (props: Props) => {
+const App = () => {
   const Layout = () => {
     return (
       <div className="main">

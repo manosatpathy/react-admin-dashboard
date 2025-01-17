@@ -1,9 +1,6 @@
-import React from "react";
 import "./footer.scss";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="footer">
       <h2>Iamadmin</h2>

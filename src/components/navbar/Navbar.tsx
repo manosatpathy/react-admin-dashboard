@@ -1,9 +1,7 @@
-import React from "react";
 import "./navbar.scss";
 
-type Props = {};
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">

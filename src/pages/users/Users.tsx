@@ -1,9 +1,6 @@
-import React from "react";
 import "./users.scss";
 
-type Props = {};
-
-const Users = (props: Props) => {
+const Users = () => {
   return <div className="users">Users</div>;
 };
 
