@@ -3,7 +3,7 @@ import DataTable from "../../components/dataTable/DataTable";
 import { userRows } from "../../data";
 import "./users.scss";
 import { useState } from "react";
-import Add from "../../components/add/add";
+import Add from "./../../components/add/Add";
 
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 80 },
