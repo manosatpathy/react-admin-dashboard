@@ -1,0 +1,12 @@
+.products {
+  .info {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    button {
+      padding: 9px;
+      cursor: pointer;
+      border-radius: 10%;
+    }
+  }
+}
