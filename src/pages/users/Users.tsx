@@ -6,40 +6,50 @@ import { useState } from "react";
 import Add from "./../../components/add/Add";
 
 const columns: GridColDef[] = [
-  { field: "id", headerName: "ID", width: 80 },
+  { field: "id", headerName: "ID", flex: 1 },
   {
     field: "img",
     headerName: "Avatar",
-    width: 100,
+    flex: 1,
     renderCell: (params) => {
       return <img src={params.row.img || "/noavatar.png"} alt="avatar logo" />;
     },
   },
-  { field: "firstName", type: "string", headerName: "First Name", width: 150 },
-  { field: "lastName", type: "string", headerName: "Last Name", width: 150 },
+  {
+    field: "firstName",
+    type: "string",
+    headerName: "First Name",
+    flex: 1,
+  },
+  {
+    field: "lastName",
+    type: "string",
+    headerName: "Last Name",
+    flex: 1,
+  },
   {
     field: "email",
     type: "string",
     headerName: "Email",
-    width: 250,
+    flex: 2,
     editable: true,
   },
   {
     field: "phone",
     type: "string",
     headerName: "Phone",
-    width: 200,
+    flex: 1,
   },
   {
     field: "createdAt",
     headerName: "Created At",
-    width: 150,
+    flex: 1,
   },
   {
     field: "verified",
     headerName: "Verified",
-    width: 150,
     type: "boolean",
+    flex: 1,
   },
 ];
 

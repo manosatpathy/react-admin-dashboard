@@ -15,6 +15,7 @@ const DataTable = (props: Props) => {
 
   const actionColumn: GridColDef = {
     field: "action",
+    flex: 1,
     headerName: "Action",
     renderCell: (params) => {
       return (
